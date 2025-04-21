@@ -1,0 +1,33 @@
+.icono-m {
+	display: block;
+	margin: 20px auto;
+	width: 240px;
+	height: 240px;
+	background: url('http://carmenpoma.rf.gd/wp-content/uploads/2025/04/perfil_inicio.png') no-repeat center center;
+	background-size: contain;
+	position: absolute;
+	left: 50%;
+	transform: translatex(-50%);
+	top: 0px;
+	z-index: 10;
+}	
+
+.banner-inicio {
+    background: url('http://carmenpoma.rf.gd/wp-content/uploads/2025/04/banner.jpg') no-repeat center center;
+    background-size: cover;    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+	  height: 150px;
+    z-index: -1;
+}
+textarea#comment {
+  background-color: #5D3A6A;
+ }
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form input[type="url"],
+.comment-form textarea {
+  background-color: #5D3A6A;
+}
